@@ -1,0 +1,4 @@
+<template name="content">
+  <view>{{content}}</view>
+  <view>hello world</view>
+</template>

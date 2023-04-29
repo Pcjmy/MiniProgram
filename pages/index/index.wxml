@@ -1,0 +1,5 @@
+<view class="header">header</view>
+<view>footer</view>
+<icon type="success" />
+<button type="primary">hello</button>
+<checkbox checked="{{true}}"></checkbox>

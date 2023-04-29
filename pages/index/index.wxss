@@ -1,0 +1,5 @@
+/* 屏幕宽度默认750rpx */
+.header {
+  width: 375rpx;
+  background-color: aqua;
+}
