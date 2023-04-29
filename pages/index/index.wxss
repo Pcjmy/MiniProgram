@@ -20,3 +20,31 @@
   transform: translateX(-184rpx);
   color: rgba(133,133,133,0.60);
 }
+.navigator {
+  display: flex;
+  line-height: 112rpx;
+  margin-bottom: 6rpx;
+}
+.navigator-item {
+  position: relative;
+  flex: 1;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 32rpx;
+  color: #2B333B;
+}
+.navigator-img {
+  position: relative;
+  top: 6rpx;
+  width: 36rpx;
+  height: 36rpx;
+}
+.navigator-acitve {
+  position: absolute;
+  width: 32rpx;
+  height: 8rpx;
+  border-radius: 4rpx;
+  background: #F01414;
+  left: 90rpx;
+  bottom: 20rpx;
+}

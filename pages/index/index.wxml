@@ -13,3 +13,33 @@
     wx:if="{{showIcon}}"
   />
 </view>
+<view class="navigator">
+  <view class="navigator-item">
+    <image
+      class="navigator-img"
+      src="../../resources/recommend.png"
+    />
+    推荐
+  </view>
+  <view class="navigator-item">
+    <image
+      class="navigator-img"
+      src="../../resources/path.png"
+    />
+    路径
+  </view>
+  <view class="navigator-item">
+    <image
+      class="navigator-img"
+      src="../../resources/project.png"
+    />
+    实战
+  </view>
+  <view class="navigator-item">
+    <image
+      class="navigator-img"
+      src="../../resources/activity.png"
+    />
+    活动
+  </view>
+</view>
