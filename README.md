@@ -1,10 +1,10 @@
-## README
+# README
 
 [微信小程序官方文档](https://developers.weixin.qq.com/miniprogram/dev/framework/structure.html)
 
 微信开发者工具：稳定版 Stable Build (1.06.22010310)
 
-==开发目录==
+## 开发目录
 
 ```text
 ├── app.js
