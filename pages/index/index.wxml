@@ -20,6 +20,7 @@
       src="../../resources/recommend.png"
     />
     推荐
+    <view class="navigator-active"></view>
   </view>
   <view class="navigator-item">
     <image

@@ -46,7 +46,7 @@
   height: 36rpx;
 }
 
-.navigator-acitve {
+.navigator-active {
   position: absolute;
   width: 32rpx;
   height: 8rpx;
