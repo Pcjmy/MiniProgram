@@ -1,3 +1,4 @@
+<!-- 搜索框 -->
 <view class="header">
   <input
     type="text"
@@ -13,6 +14,8 @@
     wx:if="{{showIcon}}"
   />
 </view>
+
+<!-- 导航栏 -->
 <view class="navigator">
   <view class="navigator-item">
     <image
@@ -20,7 +23,7 @@
       src="../../resources/recommend.png"
     />
     推荐
-    <view class="navigator-active"></view>
+    <view class="navigator-active" />
   </view>
   <view class="navigator-item">
     <image
@@ -44,3 +47,21 @@
     活动
   </view>
 </view>
+
+<!-- 推荐课程 -->
+<swiper
+  previous-margin="18rpx"
+  next-margin="18rpx"
+  circular="{{true}}"
+  autoplay="{{true}}"
+>
+  <swiper-item class="swiper-item">
+    <image class="swiper-image" src="../../resources/course1.jpg" />
+  </swiper-item>
+  <swiper-item class="swiper-item">
+    <image class="swiper-image" src="../../resources/course2.png" />
+  </swiper-item>
+  <swiper-item class="swiper-item">
+    <image class="swiper-image" src="../../resources/course3.png" />
+  </swiper-item>
+</swiper>
