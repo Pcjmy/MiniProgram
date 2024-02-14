@@ -56,6 +56,10 @@
   bottom: 20rpx;
 }
 
+.swiper {
+  height: 234rpx;
+}
+
 .swiper-item {
   box-sizing: border-box;
   padding: 0 6rpx;
@@ -65,4 +69,16 @@
   width: 708rpx;
   height: 234rpx;
   border-radius: 12rpx;
+}
+
+.project {
+  margin-top: 32rpx;
+  margin-left: 40rpx;
+}
+
+.project-title {
+  line-height: 32rpx;
+  font-size: 28rpx;
+  color: #2B333B;
+  font-weight: bold;
 }
