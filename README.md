@@ -21,3 +21,7 @@
 │       └── logs.js
 └── utils
 ```
+
+## API
+
+https://fastmock.site/#/project/536831400658499ce0c8b265d4102328
