@@ -149,3 +149,8 @@
   width: 22rpx;
   height: 22rpx;
 }
+
+.project-empty {
+  margin-top: 20rpx;
+  font-size: 24rpx;
+}

@@ -3,6 +3,7 @@ Page({
     showIcon: true,
     swiperList: [],
     courses: [],
+    searchList: null,
   },
   onLoad() {
     wx.request({
@@ -19,6 +20,13 @@ Page({
   },
   handleInputChange(e) {
     const value = e.detail.value;
-    this.setData({showIcon: value? false: true})
+    let searchList = null;
+    if (value) {
+      searchList = this.data.courses.filter(item => item.title.indexOf(value) > -1);
+    }
+    this.setData({
+      showIcon: value ? false: true,
+      searchList
+    })
   }
 })
