@@ -114,7 +114,8 @@
   font-size: 24rpx;
 }
 
-.project-item-tags text {
+.project-item-tags view {
+  float: left;
   margin-right: 18rpx;
 }
 
